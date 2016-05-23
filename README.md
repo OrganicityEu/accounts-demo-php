@@ -2,11 +2,11 @@
 
 This repository shows, how the [Organicity Accounts](http://accounts.organicity.eu/) can be used with the [oauth2-client](https://github.com/thephpleague/oauth2-client) for [PHP](https://php.net).
 
-The cod
+The example
 
 * uses the [oauth2-client](https://github.com/thephpleague/oauth2-client)
-* Uses the *Implicit Flow*
-* Decodes and verifies JWT tokens with [php-jwt](firebase/php-jwt)
+* uses the *Implicit Flow*
+* decodes and verifies [JWT tokens](https://jwt.io/) with [php-jwt](firebase/php-jwt)
 
 ## Getting started
 
