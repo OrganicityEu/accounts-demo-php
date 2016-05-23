@@ -1,5 +1,14 @@
-<ul>
-  <li>Username: <?php echo $_SESSION['username']; ?></li>
-  <li>Email: <?php echo $_SESSION['email']; ?></li>
-  <li>Roles: <?php echo implode(", ", $_SESSION['roles']); ?></li>
-</ul>
+<?php
+
+if(!isset($_SESSION['username'])) {
+	echo '<div class="alert alert-danger"><b>401 Unauthorized</b> You\'re not logged in!</div>';
+} else {
+	echo '<h3>Profile</h3>';
+	echo '<ul>';
+	echo '  <li>Username: ' . $_SESSION['username'] . '</li>';
+	echo '  <li>Email: ' . $_SESSION['email'] . '</li>';
+	echo '  <li>Roles: ' . implode(", ", $_SESSION['roles']) . '</li>';
+	echo '</ul>';
+}
+
+?>

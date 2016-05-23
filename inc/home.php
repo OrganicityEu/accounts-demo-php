@@ -1,1 +1,1 @@
-Willkommen!
+ The amazing home page.
