@@ -1,0 +1,6 @@
+{
+    "require": {
+        "league/oauth2-client": "^1.4",
+        "firebase/php-jwt": "^3.0"
+    }
+}
