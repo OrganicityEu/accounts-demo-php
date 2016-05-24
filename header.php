@@ -12,7 +12,7 @@
       <h2>PHP Demo</h2>
       <hr>
       <a href="/accounts-demo-php/" class="btn btn-default">Home</a>
-      <?php if(isset($_SESSION['username'])) { ?>
+      <?php if(isset($_SESSION['token'])) { ?>
         <a href="/accounts-demo-php?page=profile" class="btn btn-default">Profile</a>
         <a href="/accounts-demo-php?page=logout" class="btn btn-default">Logout</a>
       <?php } else { ?>

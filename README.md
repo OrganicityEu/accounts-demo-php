@@ -5,7 +5,7 @@ This repository shows, how the [Organicity Accounts](http://accounts.organicity.
 The example
 
 * uses the [oauth2-client](https://github.com/thephpleague/oauth2-client)
-* uses the *Implicit Flow*
+* uses the *Authorization Code Flow*
 * decodes and verifies [JWT tokens](https://jwt.io/) with [php-jwt](firebase/php-jwt)
 
 ## Getting started

@@ -5,6 +5,7 @@
 
   require __DIR__ . '/vendor/autoload.php';
 
+  include("inc/oauth2.php");
   include("header.php");
 
   if(empty($_GET['page'])) {
